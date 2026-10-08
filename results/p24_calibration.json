@@ -1,0 +1,209 @@
+{
+ "config": "518-base-mean, seed0, ; conformal: split, val, 90%,",
+ "cumul": {
+  "ece": {
+   "HeartSize": 0.0072,
+   "PulmonaryCongestion": 0.0099,
+   "PleuralEffusion_Right": 0.006,
+   "PleuralEffusion_Left": 0.007,
+   "PulmonaryOpacities_Right": 0.0067,
+   "PulmonaryOpacities_Left": 0.0088,
+   "Atelectasis_Right": 0.0059,
+   "Atelectasis_Left": 0.0131
+  },
+  "per_grade_recall": {
+   "HeartSize": {
+    "0": 0.614,
+    "1": 0.0,
+    "2": 0.823,
+    "3": 0.013
+   },
+   "PulmonaryCongestion": {
+    "0": 0.527,
+    "1": 0.0,
+    "2": 0.802,
+    "3": 0.075,
+    "4": 0.0
+   },
+   "PleuralEffusion_Right": {
+    "0": 0.878,
+    "1": 0.0,
+    "2": 0.628,
+    "3": 0.154,
+    "4": 0.0
+   },
+   "PleuralEffusion_Left": {
+    "0": 0.642,
+    "1": 0.0,
+    "2": 0.833,
+    "3": 0.04,
+    "4": 0.0
+   },
+   "PulmonaryOpacities_Right": {
+    "0": 0.889,
+    "1": 0.0,
+    "2": 0.318,
+    "3": 0.357,
+    "4": 0.062
+   },
+   "PulmonaryOpacities_Left": {
+    "0": 0.928,
+    "1": 0.0,
+    "2": 0.247,
+    "3": 0.333,
+    "4": 0.025
+   },
+   "Atelectasis_Right": {
+    "0": 0.368,
+    "1": 0.0,
+    "2": 0.876,
+    "3": 0.113,
+    "4": 0.0
+   },
+   "Atelectasis_Left": {
+    "0": 0.285,
+    "1": 0.0,
+    "2": 0.927,
+    "3": 0.046,
+    "4": 0.0
+   }
+  },
+  "conformal": {
+   "HeartSize": {
+    "coverage": 0.9296,
+    "mean_set_size": 3.507
+   },
+   "PulmonaryCongestion": {
+    "coverage": 0.8711,
+    "mean_set_size": 3.84
+   },
+   "PleuralEffusion_Right": {
+    "coverage": 0.8683,
+    "mean_set_size": 3.815
+   },
+   "PleuralEffusion_Left": {
+    "coverage": 0.8758,
+    "mean_set_size": 3.883
+   },
+   "PulmonaryOpacities_Right": {
+    "coverage": 0.8576,
+    "mean_set_size": 3.719
+   },
+   "PulmonaryOpacities_Left": {
+    "coverage": 0.8548,
+    "mean_set_size": 3.693
+   },
+   "Atelectasis_Right": {
+    "coverage": 0.8904,
+    "mean_set_size": 4.014
+   },
+   "Atelectasis_Left": {
+    "coverage": 0.8998,
+    "mean_set_size": 4.098
+   }
+  }
+ },
+ "ce": {
+  "ece": {
+   "HeartSize": 0.0076,
+   "PulmonaryCongestion": 0.0081,
+   "PleuralEffusion_Right": 0.022,
+   "PleuralEffusion_Left": 0.0177,
+   "PulmonaryOpacities_Right": 0.0216,
+   "PulmonaryOpacities_Left": 0.0134,
+   "Atelectasis_Right": 0.0295,
+   "Atelectasis_Left": 0.0096
+  },
+  "per_grade_recall": {
+   "HeartSize": {
+    "0": 0.59,
+    "1": 0.0,
+    "2": 0.846,
+    "3": 0.004
+   },
+   "PulmonaryCongestion": {
+    "0": 0.484,
+    "1": 0.001,
+    "2": 0.836,
+    "3": 0.052,
+    "4": 0.0
+   },
+   "PleuralEffusion_Right": {
+    "0": 0.87,
+    "1": 0.001,
+    "2": 0.645,
+    "3": 0.147,
+    "4": 0.0
+   },
+   "PleuralEffusion_Left": {
+    "0": 0.746,
+    "1": 0.002,
+    "2": 0.742,
+    "3": 0.038,
+    "4": 0.012
+   },
+   "PulmonaryOpacities_Right": {
+    "0": 0.861,
+    "1": 0.0,
+    "2": 0.387,
+    "3": 0.346,
+    "4": 0.037
+   },
+   "PulmonaryOpacities_Left": {
+    "0": 0.945,
+    "1": 0.0,
+    "2": 0.216,
+    "3": 0.292,
+    "4": 0.025
+   },
+   "Atelectasis_Right": {
+    "0": 0.278,
+    "1": 0.0,
+    "2": 0.919,
+    "3": 0.073,
+    "4": 0.0
+   },
+   "Atelectasis_Left": {
+    "0": 0.315,
+    "1": 0.0,
+    "2": 0.92,
+    "3": 0.016,
+    "4": 0.0
+   }
+  },
+  "conformal": {
+   "HeartSize": {
+    "coverage": 0.7549,
+    "mean_set_size": 2.284
+   },
+   "PulmonaryCongestion": {
+    "coverage": 0.7261,
+    "mean_set_size": 2.535
+   },
+   "PleuralEffusion_Right": {
+    "coverage": 0.709,
+    "mean_set_size": 2.381
+   },
+   "PleuralEffusion_Left": {
+    "coverage": 0.7174,
+    "mean_set_size": 2.456
+   },
+   "PulmonaryOpacities_Right": {
+    "coverage": 0.7177,
+    "mean_set_size": 2.459
+   },
+   "PulmonaryOpacities_Left": {
+    "coverage": 0.7042,
+    "mean_set_size": 2.338
+   },
+   "Atelectasis_Right": {
+    "coverage": 0.7248,
+    "mean_set_size": 2.524
+   },
+   "Atelectasis_Left": {
+    "coverage": 0.7253,
+    "mean_set_size": 2.528
+   }
+  }
+ }
+}

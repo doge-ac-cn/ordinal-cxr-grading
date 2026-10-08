@@ -1,0 +1,24 @@
+# --- datasets / features / weights: never commit ---
+taixray/
+features*/
+official-ckpt/
+*.ckpt
+*.pt
+*.parquet
+*.npz
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- logs & latex byproducts ---
+*.log
+*.aux
+*.out
+*.synctex.gz
+
+# --- local environment ---
+.env
+.DS_Store

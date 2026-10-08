@@ -1,0 +1,46 @@
+{
+ "method": "per-task selection across 12 configs by val QWK (CORAL, seed0)",
+ "per_task": {
+  "HeartSize": {
+   "config": "518-base-mean-unw",
+   "val": 0.4717733701555027,
+   "test": 0.4529617788332698
+  },
+  "PulmonaryCongestion": {
+   "config": "518-base-cls-unw",
+   "val": 0.39865323736006064,
+   "test": 0.39400723912790936
+  },
+  "PleuralEffusion_Right": {
+   "config": "518-base-mean-unw",
+   "val": 0.5865704539695313,
+   "test": 0.5890303181165157
+  },
+  "PleuralEffusion_Left": {
+   "config": "518-base-mean-unw",
+   "val": 0.4932723364932966,
+   "test": 0.49062463921013855
+  },
+  "PulmonaryOpacities_Right": {
+   "config": "518-base-cls-unw",
+   "val": 0.5056332168781509,
+   "test": 0.5115503445628109
+  },
+  "PulmonaryOpacities_Left": {
+   "config": "224-base-cls-unw",
+   "val": 0.4913450843432706,
+   "test": 0.48087213994731914
+  },
+  "Atelectasis_Right": {
+   "config": "518-base-mean-w",
+   "val": 0.3874513109420126,
+   "test": 0.3989650262205061
+  },
+  "Atelectasis_Left": {
+   "config": "518-base-mean-w",
+   "val": 0.34198605155072703,
+   "test": 0.3338076744520151
+  }
+ },
+ "test_mean_qwk": 0.4564773950588106
+}

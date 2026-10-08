@@ -1,0 +1,614 @@
+{
+ "fold_semantics": "Fold0() -> GroupKFold(5) by PatientID on train+val, test",
+ "headline": {
+  "test_mean_qwk": 0.4564773950588106,
+  "bootstrap95ci": [
+   0.4533123425477586,
+   0.4599374859192974
+  ],
+  "n_boot": 1000,
+  "test_mean_linear_kappa": 0.3566016940862458,
+  "test_mean_exact_acc": 0.4982354174431607,
+  "per_task_selection": {
+   "HeartSize": "518bm_u",
+   "PulmonaryCongestion": "518bc_u",
+   "PleuralEffusion_Right": "518bm_u",
+   "PleuralEffusion_Left": "518bm_u",
+   "PulmonaryOpacities_Right": "518bc_u",
+   "PulmonaryOpacities_Left": "224bc_u",
+   "Atelectasis_Right": "518bm_w",
+   "Atelectasis_Left": "518bm_w"
+  }
+ },
+ "configs": {
+  "224bc_u": {
+   "val": 0.41591275454004034,
+   "val_per_task": {
+    "HeartSize": 0.4490918965846096,
+    "PulmonaryCongestion": 0.3691888048325138,
+    "PleuralEffusion_Right": 0.5555110065992022,
+    "PleuralEffusion_Left": 0.4558330175357532,
+    "PulmonaryOpacities_Right": 0.5007289269239181,
+    "PulmonaryOpacities_Left": 0.4913450843432706,
+    "Atelectasis_Right": 0.2927015869607542,
+    "Atelectasis_Left": 0.2129017125403011
+   },
+   "test_qwk": {
+    "HeartSize": 0.43134621808934936,
+    "PulmonaryCongestion": 0.376030549033591,
+    "PleuralEffusion_Right": 0.5473409211891823,
+    "PleuralEffusion_Left": 0.45071327228713565,
+    "PulmonaryOpacities_Right": 0.5034907765584304,
+    "PulmonaryOpacities_Left": 0.48087213994731914,
+    "Atelectasis_Right": 0.2982584139217782,
+    "Atelectasis_Left": 0.21925758606989598
+   },
+   "test_linear_kappa": {
+    "HeartSize": 0.3482358716127886,
+    "PulmonaryCongestion": 0.29324359885512463,
+    "PleuralEffusion_Right": 0.4475124663251918,
+    "PleuralEffusion_Left": 0.360612654387256,
+    "PulmonaryOpacities_Right": 0.3832117416286954,
+    "PulmonaryOpacities_Left": 0.3760691858573032,
+    "Atelectasis_Right": 0.2313121974705712,
+    "Atelectasis_Left": 0.17790392618409856
+   },
+   "test_exact_acc": {
+    "HeartSize": 0.5193579947819605,
+    "PulmonaryCongestion": 0.49629612374207976,
+    "PleuralEffusion_Right": 0.5642005218039507,
+    "PleuralEffusion_Left": 0.5159569511740589,
+    "PulmonaryOpacities_Right": 0.5064060752888557,
+    "PulmonaryOpacities_Left": 0.5839079388743943,
+    "Atelectasis_Right": 0.5499906820723072,
+    "Atelectasis_Left": 0.6194092433842714
+   },
+   "test_mean": 0.41341373463708525,
+   "test_mean_linear_kappa": 0.3272627052901287,
+   "test_mean_exact_acc": 0.5444406913902349
+  },
+  "224bc_w": {
+   "val": 0.42408091749247395,
+   "val_per_task": {
+    "HeartSize": 0.4292102197516866,
+    "PulmonaryCongestion": 0.3783725107021111,
+    "PleuralEffusion_Right": 0.4955306631884808,
+    "PleuralEffusion_Left": 0.40692134280205905,
+    "PulmonaryOpacities_Right": 0.4953192466395052,
+    "PulmonaryOpacities_Left": 0.4868339521652867,
+    "Atelectasis_Right": 0.3705208608094037,
+    "Atelectasis_Left": 0.32993854388125843
+   },
+   "test_qwk": {
+    "HeartSize": 0.40903875535557854,
+    "PulmonaryCongestion": 0.37059058506456266,
+    "PleuralEffusion_Right": 0.4823266257122927,
+    "PleuralEffusion_Left": 0.400264132247967,
+    "PulmonaryOpacities_Right": 0.5013917998883146,
+    "PulmonaryOpacities_Left": 0.48211784249789924,
+    "Atelectasis_Right": 0.3863093280755361,
+    "Atelectasis_Left": 0.31528889501588264
+   },
+   "test_linear_kappa": {
+    "HeartSize": 0.307188417110294,
+    "PulmonaryCongestion": 0.2687626789737828,
+    "PleuralEffusion_Right": 0.37729939254012235,
+    "PleuralEffusion_Left": 0.29895988733894896,
+    "PulmonaryOpacities_Right": 0.3774065863877176,
+    "PulmonaryOpacities_Left": 0.36708992981898303,
+    "Atelectasis_Right": 0.2815363688180059,
+    "Atelectasis_Left": 0.22982758313465101
+   },
+   "test_exact_acc": {
+    "HeartSize": 0.40251118151323145,
+    "PulmonaryCongestion": 0.3572959373835259,
+    "PleuralEffusion_Right": 0.45464498695490124,
+    "PleuralEffusion_Left": 0.37378866939992544,
+    "PulmonaryOpacities_Right": 0.4719996272828923,
+    "PulmonaryOpacities_Left": 0.5160967200894521,
+    "Atelectasis_Right": 0.38042769288110323,
+    "Atelectasis_Left": 0.3716222512113306
+   },
+   "test_mean": 0.41841599548225417,
+   "test_mean_linear_kappa": 0.3135088555153132,
+   "test_mean_exact_acc": 0.4160483833395453
+  },
+  "224bm_u": {
+   "val": 0.42153672987416535,
+   "val_per_task": {
+    "HeartSize": 0.45283184541401467,
+    "PulmonaryCongestion": 0.37638810851627935,
+    "PleuralEffusion_Right": 0.560903631634739,
+    "PleuralEffusion_Left": 0.4704940092859705,
+    "PulmonaryOpacities_Right": 0.4928917247819975,
+    "PulmonaryOpacities_Left": 0.46154934880298937,
+    "Atelectasis_Right": 0.31361886999102573,
+    "Atelectasis_Left": 0.24361630056630657
+   },
+   "test_qwk": {
+    "HeartSize": 0.43522200890526064,
+    "PulmonaryCongestion": 0.377275870917813,
+    "PleuralEffusion_Right": 0.5597081890809685,
+    "PleuralEffusion_Left": 0.46589598716887903,
+    "PulmonaryOpacities_Right": 0.4943840315768899,
+    "PulmonaryOpacities_Left": 0.4525142560063141,
+    "Atelectasis_Right": 0.32278825183493587,
+    "Atelectasis_Left": 0.24593550532031117
+   },
+   "test_linear_kappa": {
+    "HeartSize": 0.3505026700560949,
+    "PulmonaryCongestion": 0.28686928641243437,
+    "PleuralEffusion_Right": 0.4593334920841784,
+    "PleuralEffusion_Left": 0.3729530165496038,
+    "PulmonaryOpacities_Right": 0.37582564364992765,
+    "PulmonaryOpacities_Left": 0.35121528116819756,
+    "Atelectasis_Right": 0.24960056683132048,
+    "Atelectasis_Left": 0.19715800522838667
+   },
+   "test_exact_acc": {
+    "HeartSize": 0.5214545285128588,
+    "PulmonaryCongestion": 0.4743524040253448,
+    "PleuralEffusion_Right": 0.5768030190085724,
+    "PleuralEffusion_Left": 0.5190085724934774,
+    "PulmonaryOpacities_Right": 0.5068253820350354,
+    "PulmonaryOpacities_Left": 0.5803904211703317,
+    "Atelectasis_Right": 0.5465197540067089,
+    "Atelectasis_Left": 0.6078550130450988
+   },
+   "test_mean": 0.41921551260142154,
+   "test_mean_linear_kappa": 0.330432245247518,
+   "test_mean_exact_acc": 0.5416511367871786
+  },
+  "224bm_w": {
+   "val": 0.42041138851497784,
+   "val_per_task": {
+    "HeartSize": 0.42556064880102085,
+    "PulmonaryCongestion": 0.3779087563541954,
+    "PleuralEffusion_Right": 0.5219648392035352,
+    "PleuralEffusion_Left": 0.41261164356221214,
+    "PulmonaryOpacities_Right": 0.4784086012855584,
+    "PulmonaryOpacities_Left": 0.44795116051844164,
+    "Atelectasis_Right": 0.3715135128157744,
+    "Atelectasis_Left": 0.327371945579085
+   },
+   "test_qwk": {
+    "HeartSize": 0.4061240945967368,
+    "PulmonaryCongestion": 0.36790697402511263,
+    "PleuralEffusion_Right": 0.5111323353445504,
+    "PleuralEffusion_Left": 0.40566679138666917,
+    "PulmonaryOpacities_Right": 0.482489070981583,
+    "PulmonaryOpacities_Left": 0.43975639421457535,
+    "Atelectasis_Right": 0.38062165198581754,
+    "Atelectasis_Left": 0.3137896056258819
+   },
+   "test_linear_kappa": {
+    "HeartSize": 0.30415945775718956,
+    "PulmonaryCongestion": 0.2691185586542547,
+    "PleuralEffusion_Right": 0.40152552623209925,
+    "PleuralEffusion_Left": 0.3041225617437818,
+    "PulmonaryOpacities_Right": 0.36145201598204435,
+    "PulmonaryOpacities_Left": 0.3355140577525253,
+    "Atelectasis_Right": 0.2760590266952744,
+    "Atelectasis_Left": 0.22539366218333579
+   },
+   "test_exact_acc": {
+    "HeartSize": 0.3933563175549758,
+    "PulmonaryCongestion": 0.3646338054416698,
+    "PleuralEffusion_Right": 0.48255218039508013,
+    "PleuralEffusion_Left": 0.37716641818859487,
+    "PulmonaryOpacities_Right": 0.45583302273574355,
+    "PulmonaryOpacities_Left": 0.4908917256802087,
+    "Atelectasis_Right": 0.35997484159522924,
+    "Atelectasis_Left": 0.3532193440178904
+   },
+   "test_mean": 0.41343586477011585,
+   "test_mean_linear_kappa": 0.30966810837506314,
+   "test_mean_exact_acc": 0.40970345695117405
+  },
+  "224lc_u": {
+   "val": 0.40048734810969233,
+   "val_per_task": {
+    "HeartSize": 0.4378560211016397,
+    "PulmonaryCongestion": 0.36162938750895834,
+    "PleuralEffusion_Right": 0.5543280202370232,
+    "PleuralEffusion_Left": 0.4522282524339676,
+    "PulmonaryOpacities_Right": 0.4533621016425593,
+    "PulmonaryOpacities_Left": 0.4247080839415356,
+    "Atelectasis_Right": 0.2685300680613214,
+    "Atelectasis_Left": 0.25125684995053366
+   },
+   "test_qwk": {
+    "HeartSize": 0.4227010860089315,
+    "PulmonaryCongestion": 0.3629620005168144,
+    "PleuralEffusion_Right": 0.5394843752902121,
+    "PleuralEffusion_Left": 0.45515702273694003,
+    "PulmonaryOpacities_Right": 0.4554146785788743,
+    "PulmonaryOpacities_Left": 0.41928752596829255,
+    "Atelectasis_Right": 0.27619166201578604,
+    "Atelectasis_Left": 0.24663908004081148
+   },
+   "test_linear_kappa": {
+    "HeartSize": 0.34401279044921507,
+    "PulmonaryCongestion": 0.2752625597271635,
+    "PleuralEffusion_Right": 0.4416616947286576,
+    "PleuralEffusion_Left": 0.370928626899092,
+    "PulmonaryOpacities_Right": 0.3432926974777706,
+    "PulmonaryOpacities_Left": 0.32069395549640134,
+    "Atelectasis_Right": 0.21401235705129984,
+    "Atelectasis_Left": 0.19903376293331643
+   },
+   "test_exact_acc": {
+    "HeartSize": 0.5276043607901603,
+    "PulmonaryCongestion": 0.47167349981364143,
+    "PleuralEffusion_Right": 0.5637812150577711,
+    "PleuralEffusion_Left": 0.5282333209094298,
+    "PulmonaryOpacities_Right": 0.4991846813268729,
+    "PulmonaryOpacities_Left": 0.5647828922847559,
+    "Atelectasis_Right": 0.5510389489377563,
+    "Atelectasis_Left": 0.612141259783824
+   },
+   "test_mean": 0.39722967889458277,
+   "test_mean_linear_kappa": 0.3136123055953645,
+   "test_mean_exact_acc": 0.5398050223630265
+  },
+  "224lc_w": {
+   "val": 0.40617949519597085,
+   "val_per_task": {
+    "HeartSize": 0.4170389727795072,
+    "PulmonaryCongestion": 0.36761279132475844,
+    "PleuralEffusion_Right": 0.4882745582607625,
+    "PleuralEffusion_Left": 0.41237188204744835,
+    "PulmonaryOpacities_Right": 0.45511158685869935,
+    "PulmonaryOpacities_Left": 0.42517772194371717,
+    "Atelectasis_Right": 0.3712392877718629,
+    "Atelectasis_Left": 0.31260916058101074
+   },
+   "test_qwk": {
+    "HeartSize": 0.3975486141261776,
+    "PulmonaryCongestion": 0.35506122621668323,
+    "PleuralEffusion_Right": 0.47075078442078966,
+    "PleuralEffusion_Left": 0.4085989018913042,
+    "PulmonaryOpacities_Right": 0.45951410117367664,
+    "PulmonaryOpacities_Left": 0.4201933992500597,
+    "Atelectasis_Right": 0.38377836020387945,
+    "Atelectasis_Left": 0.30576488306128347
+   },
+   "test_linear_kappa": {
+    "HeartSize": 0.3023098056251977,
+    "PulmonaryCongestion": 0.25539743879696664,
+    "PleuralEffusion_Right": 0.36707197248390455,
+    "PleuralEffusion_Left": 0.30915536973025404,
+    "PulmonaryOpacities_Right": 0.34740279169582056,
+    "PulmonaryOpacities_Left": 0.31796761831887277,
+    "Atelectasis_Right": 0.28247759926136584,
+    "Atelectasis_Left": 0.22673698147952026
+   },
+   "test_exact_acc": {
+    "HeartSize": 0.4142051807677972,
+    "PulmonaryCongestion": 0.3411526276556094,
+    "PleuralEffusion_Right": 0.4495900111815132,
+    "PleuralEffusion_Left": 0.395336377189713,
+    "PulmonaryOpacities_Right": 0.45748695490123,
+    "PulmonaryOpacities_Left": 0.4755171449869549,
+    "Atelectasis_Right": 0.3727404025344763,
+    "Atelectasis_Left": 0.38548266865449127
+   },
+   "test_mean": 0.4001512837929817,
+   "test_mean_linear_kappa": 0.3010649471739878,
+   "test_mean_exact_acc": 0.41143892098397317
+  },
+  "224lm_u": {
+   "val": 0.42052074617654456,
+   "val_per_task": {
+    "HeartSize": 0.467933477358473,
+    "PulmonaryCongestion": 0.3831010306103605,
+    "PleuralEffusion_Right": 0.5811113984296425,
+    "PleuralEffusion_Left": 0.4757249642464356,
+    "PulmonaryOpacities_Right": 0.4782678040895646,
+    "PulmonaryOpacities_Left": 0.4331885918547367,
+    "Atelectasis_Right": 0.30118319956981743,
+    "Atelectasis_Left": 0.24365550325332597
+   },
+   "test_qwk": {
+    "HeartSize": 0.4433592829073517,
+    "PulmonaryCongestion": 0.3777080143448899,
+    "PleuralEffusion_Right": 0.570706329586975,
+    "PleuralEffusion_Left": 0.4751340667830696,
+    "PulmonaryOpacities_Right": 0.4818522884174474,
+    "PulmonaryOpacities_Left": 0.4339223354873032,
+    "Atelectasis_Right": 0.30407791465057277,
+    "Atelectasis_Left": 0.24266453377988695
+   },
+   "test_linear_kappa": {
+    "HeartSize": 0.3614833958142183,
+    "PulmonaryCongestion": 0.2919887133798529,
+    "PleuralEffusion_Right": 0.4732662510349933,
+    "PleuralEffusion_Left": 0.3842790132178694,
+    "PulmonaryOpacities_Right": 0.36493543601590706,
+    "PulmonaryOpacities_Left": 0.33307877574567923,
+    "Atelectasis_Right": 0.23663375728720037,
+    "Atelectasis_Left": 0.1943698341390081
+   },
+   "test_exact_acc": {
+    "HeartSize": 0.5329155795751025,
+    "PulmonaryCongestion": 0.4831345508758852,
+    "PleuralEffusion_Right": 0.5889396198285501,
+    "PleuralEffusion_Left": 0.529071934401789,
+    "PulmonaryOpacities_Right": 0.5019101751770406,
+    "PulmonaryOpacities_Left": 0.5676015654118524,
+    "Atelectasis_Right": 0.5556979127841968,
+    "Atelectasis_Left": 0.6099282519567648
+   },
+   "test_mean": 0.41617809574468706,
+   "test_mean_linear_kappa": 0.33000439707934104,
+   "test_mean_exact_acc": 0.5461499487513977
+  },
+  "224lm_w": {
+   "val": 0.41451320804317,
+   "val_per_task": {
+    "HeartSize": 0.4252099587954017,
+    "PulmonaryCongestion": 0.38771359739400113,
+    "PleuralEffusion_Right": 0.5244545601885532,
+    "PleuralEffusion_Left": 0.4034909503933173,
+    "PulmonaryOpacities_Right": 0.4605845473413217,
+    "PulmonaryOpacities_Left": 0.43602783803108314,
+    "Atelectasis_Right": 0.3673152759092464,
+    "Atelectasis_Left": 0.31130893629243517
+   },
+   "test_qwk": {
+    "HeartSize": 0.40298427052278807,
+    "PulmonaryCongestion": 0.3724281707331173,
+    "PleuralEffusion_Right": 0.5064185226662978,
+    "PleuralEffusion_Left": 0.4002764046666907,
+    "PulmonaryOpacities_Right": 0.4715077815349844,
+    "PulmonaryOpacities_Left": 0.43594852125377237,
+    "Atelectasis_Right": 0.37873913337911636,
+    "Atelectasis_Left": 0.3038530243631521
+   },
+   "test_linear_kappa": {
+    "HeartSize": 0.30343738667645626,
+    "PulmonaryCongestion": 0.2787633671886788,
+    "PleuralEffusion_Right": 0.39658868619789844,
+    "PleuralEffusion_Left": 0.29924685899079284,
+    "PulmonaryOpacities_Right": 0.356765550446111,
+    "PulmonaryOpacities_Left": 0.3318469380122214,
+    "Atelectasis_Right": 0.2750558022190782,
+    "Atelectasis_Left": 0.22230695198074157
+   },
+   "test_exact_acc": {
+    "HeartSize": 0.39470741707044354,
+    "PulmonaryCongestion": 0.3847139396198285,
+    "PleuralEffusion_Right": 0.4753074916138651,
+    "PleuralEffusion_Left": 0.38028792396571004,
+    "PulmonaryOpacities_Right": 0.4701826313827805,
+    "PulmonaryOpacities_Left": 0.4942228848304137,
+    "Atelectasis_Right": 0.3655190085724935,
+    "Atelectasis_Left": 0.3705040998881849
+   },
+   "test_mean": 0.4090194786399899,
+   "test_mean_linear_kappa": 0.3080014427139973,
+   "test_mean_exact_acc": 0.41693067461796496
+  },
+  "518bc_u": {
+   "val": 0.43538890409625713,
+   "val_per_task": {
+    "HeartSize": 0.45853211867748256,
+    "PulmonaryCongestion": 0.39865323736006064,
+    "PleuralEffusion_Right": 0.569201803088381,
+    "PleuralEffusion_Left": 0.4819223970934695,
+    "PulmonaryOpacities_Right": 0.5056332168781509,
+    "PulmonaryOpacities_Left": 0.47848853473102726,
+    "Atelectasis_Right": 0.33768209617012646,
+    "Atelectasis_Left": 0.2529978287713587
+   },
+   "test_qwk": {
+    "HeartSize": 0.4463131726405708,
+    "PulmonaryCongestion": 0.39400723912790936,
+    "PleuralEffusion_Right": 0.5678953826432458,
+    "PleuralEffusion_Left": 0.4765741707886735,
+    "PulmonaryOpacities_Right": 0.5115503445628109,
+    "PulmonaryOpacities_Left": 0.469444256175517,
+    "Atelectasis_Right": 0.3492084947346692,
+    "Atelectasis_Left": 0.258616043734633
+   },
+   "test_linear_kappa": {
+    "HeartSize": 0.3652017917853019,
+    "PulmonaryCongestion": 0.30164621287994087,
+    "PleuralEffusion_Right": 0.46803906343773427,
+    "PleuralEffusion_Left": 0.3823698780591537,
+    "PulmonaryOpacities_Right": 0.3934417171658269,
+    "PulmonaryOpacities_Left": 0.3631457250651543,
+    "Atelectasis_Right": 0.27255004565285745,
+    "Atelectasis_Left": 0.20834891622295215
+   },
+   "test_exact_acc": {
+    "HeartSize": 0.5371552366753634,
+    "PulmonaryCongestion": 0.48106131196421914,
+    "PleuralEffusion_Right": 0.5835818114051435,
+    "PleuralEffusion_Left": 0.527581065970928,
+    "PulmonaryOpacities_Right": 0.522060193812896,
+    "PulmonaryOpacities_Left": 0.5766399552739471,
+    "Atelectasis_Right": 0.5519008572493478,
+    "Atelectasis_Left": 0.6125605665300037
+   },
+   "test_mean": 0.4342011380510037,
+   "test_mean_linear_kappa": 0.34434291878361517,
+   "test_mean_exact_acc": 0.5490676248602311
+  },
+  "518bc_w": {
+   "val": 0.4341277598781663,
+   "val_per_task": {
+    "HeartSize": 0.4371538546461874,
+    "PulmonaryCongestion": 0.3971208233694543,
+    "PleuralEffusion_Right": 0.5124792374810999,
+    "PleuralEffusion_Left": 0.4262417173457669,
+    "PulmonaryOpacities_Right": 0.4953464505338183,
+    "PulmonaryOpacities_Left": 0.4796252383246502,
+    "Atelectasis_Right": 0.38422651259961593,
+    "Atelectasis_Left": 0.3408282447247378
+   },
+   "test_qwk": {
+    "HeartSize": 0.41855063269087955,
+    "PulmonaryCongestion": 0.38356352968432117,
+    "PleuralEffusion_Right": 0.5026732157413984,
+    "PleuralEffusion_Left": 0.4144583477132312,
+    "PulmonaryOpacities_Right": 0.5066583400776679,
+    "PulmonaryOpacities_Left": 0.4767180054770995,
+    "Atelectasis_Right": 0.39743113041160094,
+    "Atelectasis_Left": 0.33015238956787485
+   },
+   "test_linear_kappa": {
+    "HeartSize": 0.31794598057888446,
+    "PulmonaryCongestion": 0.2781698897681687,
+    "PleuralEffusion_Right": 0.392321302205918,
+    "PleuralEffusion_Left": 0.30854731582430117,
+    "PulmonaryOpacities_Right": 0.38412546410217474,
+    "PulmonaryOpacities_Left": 0.3644413889246386,
+    "Atelectasis_Right": 0.2922290219705246,
+    "Atelectasis_Left": 0.24171276544695697
+   },
+   "test_exact_acc": {
+    "HeartSize": 0.4131569139023481,
+    "PulmonaryCongestion": 0.361209467014536,
+    "PleuralEffusion_Right": 0.4596067834513604,
+    "PleuralEffusion_Left": 0.3778652627655609,
+    "PulmonaryOpacities_Right": 0.4764722325754752,
+    "PulmonaryOpacities_Left": 0.5151882221393962,
+    "Atelectasis_Right": 0.38874394334699963,
+    "Atelectasis_Left": 0.38138278046962354
+   },
+   "test_mean": 0.4287756989205092,
+   "test_mean_linear_kappa": 0.3224366411026959,
+   "test_mean_exact_acc": 0.4217032007081625
+  },
+  "518bm_u": {
+   "val": 0.4345316130677671,
+   "val_per_task": {
+    "HeartSize": 0.4717733701555027,
+    "PulmonaryCongestion": 0.3908191018917776,
+    "PleuralEffusion_Right": 0.5865704539695313,
+    "PleuralEffusion_Left": 0.4932723364932966,
+    "PulmonaryOpacities_Right": 0.49868518091926495,
+    "PulmonaryOpacities_Left": 0.45475354109650734,
+    "Atelectasis_Right": 0.3266910264982721,
+    "Atelectasis_Left": 0.2536878935179847
+   },
+   "test_qwk": {
+    "HeartSize": 0.4529617788332698,
+    "PulmonaryCongestion": 0.3878994414368073,
+    "PleuralEffusion_Right": 0.5890303181165157,
+    "PleuralEffusion_Left": 0.49062463921013855,
+    "PulmonaryOpacities_Right": 0.502796504331567,
+    "PulmonaryOpacities_Left": 0.4488557693324272,
+    "Atelectasis_Right": 0.3355603178090333,
+    "Atelectasis_Left": 0.25680990506669243
+   },
+   "test_linear_kappa": {
+    "HeartSize": 0.36779709551363904,
+    "PulmonaryCongestion": 0.29774542748524024,
+    "PleuralEffusion_Right": 0.48706971270556954,
+    "PleuralEffusion_Left": 0.3918962204902161,
+    "PulmonaryOpacities_Right": 0.38371342745678116,
+    "PulmonaryOpacities_Left": 0.3473437007915603,
+    "Atelectasis_Right": 0.26021221910343495,
+    "Atelectasis_Left": 0.20623157475371734
+   },
+   "test_exact_acc": {
+    "HeartSize": 0.533661013790533,
+    "PulmonaryCongestion": 0.48096813268729033,
+    "PleuralEffusion_Right": 0.5936451733134551,
+    "PleuralEffusion_Left": 0.5270685799478196,
+    "PulmonaryOpacities_Right": 0.5111815132314573,
+    "PulmonaryOpacities_Left": 0.5790393216548639,
+    "Atelectasis_Right": 0.5515048453224003,
+    "Atelectasis_Left": 0.6103708535221767
+   },
+   "test_mean": 0.43306733426705646,
+   "test_mean_linear_kappa": 0.34275117228751983,
+   "test_mean_exact_acc": 0.5484299291837496
+  },
+  "518bm_w": {
+   "val": 0.4356624311395261,
+   "val_per_task": {
+    "HeartSize": 0.440223644804414,
+    "PulmonaryCongestion": 0.392207479394996,
+    "PleuralEffusion_Right": 0.5499228841614965,
+    "PleuralEffusion_Left": 0.442752225730523,
+    "PulmonaryOpacities_Right": 0.48522756104445064,
+    "PulmonaryOpacities_Left": 0.44552829148758855,
+    "Atelectasis_Right": 0.3874513109420126,
+    "Atelectasis_Left": 0.34198605155072703
+   },
+   "test_qwk": {
+    "HeartSize": 0.4171871566933705,
+    "PulmonaryCongestion": 0.38063647817416746,
+    "PleuralEffusion_Right": 0.5436419065388324,
+    "PleuralEffusion_Left": 0.435783674142866,
+    "PulmonaryOpacities_Right": 0.49497340923273736,
+    "PulmonaryOpacities_Left": 0.4424237422563545,
+    "Atelectasis_Right": 0.3989650262205061,
+    "Atelectasis_Left": 0.3338076744520151
+   },
+   "test_linear_kappa": {
+    "HeartSize": 0.31271342529752444,
+    "PulmonaryCongestion": 0.2794907047092716,
+    "PleuralEffusion_Right": 0.42819616096567725,
+    "PleuralEffusion_Left": 0.32930732137796137,
+    "PulmonaryOpacities_Right": 0.3763428828434917,
+    "PulmonaryOpacities_Left": 0.3393779821239593,
+    "Atelectasis_Right": 0.29221378517149166,
+    "Atelectasis_Left": 0.24267962290597922
+   },
+   "test_exact_acc": {
+    "HeartSize": 0.3954062616474096,
+    "PulmonaryCongestion": 0.3723676854267611,
+    "PleuralEffusion_Right": 0.4960398807305255,
+    "PleuralEffusion_Left": 0.4024645918747671,
+    "PulmonaryOpacities_Right": 0.4686218784942229,
+    "PulmonaryOpacities_Left": 0.49207976146105104,
+    "Atelectasis_Right": 0.3772363026462915,
+    "Atelectasis_Left": 0.36724282519567647
+   },
+   "test_mean": 0.4309273834638562,
+   "test_mean_linear_kappa": 0.3250402356744196,
+   "test_mean_exact_acc": 0.42143239843458813
+  }
+ },
+ "groupkfold5": {
+  "per_fold": [
+   {
+    "fold": 0,
+    "n_train": 137962,
+    "val_qwk": 0.418,
+    "test_qwk": 0.4138
+   },
+   {
+    "fold": 1,
+    "n_train": 137962,
+    "val_qwk": 0.413,
+    "test_qwk": 0.4161
+   },
+   {
+    "fold": 2,
+    "n_train": 137962,
+    "val_qwk": 0.4187,
+    "test_qwk": 0.4153
+   },
+   {
+    "fold": 3,
+    "n_train": 137963,
+    "val_qwk": 0.414,
+    "test_qwk": 0.4126
+   },
+   {
+    "fold": 4,
+    "n_train": 137963,
+    "val_qwk": 0.4177,
+    "test_qwk": 0.4157
+   }
+  ],
+  "test_mean": 0.4147,
+  "test_std": 0.0014611639196202464
+ },
+ "total_seconds": 414
+}

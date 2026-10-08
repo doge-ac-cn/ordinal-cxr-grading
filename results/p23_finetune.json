@@ -1,0 +1,62 @@
+{
+ "config": "DINOv2-base @224 finetune + mean-pool + unconstrained cumulative, 3ep, no-aug [\u91cd\u5efa: \u539f\u6587\u4ef6\u88abv2\u8bef\u8986\u76d6, \u6570\u5b57\u6765\u81eaEXPERIMENT_LOG P2.3\u8282\u4e0efinetune_full_metrics.json]",
+ "val_best_mean_qwk": 0.6014,
+ "val_history": [
+  {
+   "epoch": 0,
+   "val_mean_qwk": 0.549
+  },
+  {
+   "epoch": 1,
+   "val_mean_qwk": 0.588
+  },
+  {
+   "epoch": 2,
+   "val_mean_qwk": 0.6014
+  }
+ ],
+ "test": {
+  "HeartSize": {
+   "qwk": 0.6249,
+   "linear_kappa": 0.5301,
+   "exact_acc": 0.6293
+  },
+  "PulmonaryCongestion": {
+   "qwk": 0.4834,
+   "linear_kappa": 0.3864,
+   "exact_acc": 0.5342
+  },
+  "PleuralEffusion_Right": {
+   "qwk": 0.7487,
+   "linear_kappa": 0.6481,
+   "exact_acc": 0.6918
+  },
+  "PleuralEffusion_Left": {
+   "qwk": 0.6657,
+   "linear_kappa": 0.5666,
+   "exact_acc": 0.6375
+  },
+  "PulmonaryOpacities_Right": {
+   "qwk": 0.6616,
+   "linear_kappa": 0.5346,
+   "exact_acc": 0.5921
+  },
+  "PulmonaryOpacities_Left": {
+   "qwk": 0.6314,
+   "linear_kappa": 0.5126,
+   "exact_acc": 0.6353
+  },
+  "Atelectasis_Right": {
+   "qwk": 0.518,
+   "linear_kappa": 0.4324,
+   "exact_acc": 0.6192
+  },
+  "Atelectasis_Left": {
+   "qwk": 0.4446,
+   "linear_kappa": 0.375,
+   "exact_acc": 0.6511
+  }
+ },
+ "test_mean_qwk": 0.5973,
+ "note": "test metrics per finetune_full_metrics.json (canonical evaluation)"
+}

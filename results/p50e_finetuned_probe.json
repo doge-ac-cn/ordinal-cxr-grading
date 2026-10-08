@@ -1,0 +1,14 @@
+{
+ "config": "linear cumulative head on FROZEN fine-tuned (p44 v2) backbone features @224 mean-pool, 3 seeds",
+ "per_seed": [
+  0.605,
+  0.605,
+  0.6051
+ ],
+ "mean": 0.605,
+ "anchors": {
+  "frozen generic probe": 0.413,
+  "full fine-tune": 0.6044,
+  "label-space distillation student": 0.4227
+ }
+}

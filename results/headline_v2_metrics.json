@@ -1,0 +1,17 @@
+{
+ "headline_seed0_metrics": {
+  "qwk": 0.5463,
+  "linear_kappa": 0.4351,
+  "exact_acc": 0.5328
+ },
+ "per_task_qwk": {
+  "HeartSize": 0.5882,
+  "PulmonaryCongestion": 0.444,
+  "PleuralEffusion_Right": 0.6579,
+  "PleuralEffusion_Left": 0.5663,
+  "PulmonaryOpacities_Right": 0.625,
+  "PulmonaryOpacities_Left": 0.5894,
+  "Atelectasis_Right": 0.4864,
+  "Atelectasis_Left": 0.413
+ }
+}

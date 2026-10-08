@@ -1,0 +1,117 @@
+{
+ "E1_inference_rule_2x2": {
+  "config": "518bm cumulative, 3 seeds; count=(sig>0.5).sum vs argmax of normalized telescoped probs; CE argmax",
+  "mean_qwk": {
+   "count": [
+    0.4331,
+    0.4329,
+    0.4366
+   ],
+   "argmax_scaled": [
+    0.404,
+    0.4062,
+    0.413
+   ],
+   "ce_argmax": [
+    0.3963,
+    0.4053,
+    0.4023
+   ]
+  },
+  "avg": {
+   "count": 0.4342,
+   "argmax_scaled": 0.4077,
+   "ce_argmax": 0.4013
+  },
+  "per_task_count_minus_argmax": {
+   "HeartSize": 0.0389,
+   "PulmonaryCongestion": 0.0152,
+   "PleuralEffusion_Right": 0.0291,
+   "PleuralEffusion_Left": 0.0325,
+   "PulmonaryOpacities_Right": 0.0444,
+   "PulmonaryOpacities_Left": 0.061,
+   "Atelectasis_Right": -0.0053,
+   "Atelectasis_Left": -0.004
+  }
+ },
+ "E2_threshold_sweep": {
+  "val_best_offset": 0.05,
+  "val_qwk": 0.4368,
+  "test_qwk_at_0.5": 0.4331,
+  "test_qwk_at_val_best": 0.4352,
+  "top_grade_recall_off0.5": {
+   "HeartSize": 0.0027,
+   "PulmonaryCongestion": 0.0,
+   "PleuralEffusion_Right": 0.0,
+   "PleuralEffusion_Left": 0.0,
+   "PulmonaryOpacities_Right": 0.0122,
+   "PulmonaryOpacities_Left": 0.0,
+   "Atelectasis_Right": 0.0,
+   "Atelectasis_Left": 0.0
+  },
+  "top_grade_recall_valbest": {
+   "HeartSize": 0.0016,
+   "PulmonaryCongestion": 0.0,
+   "PleuralEffusion_Right": 0.0,
+   "PleuralEffusion_Left": 0.0,
+   "PulmonaryOpacities_Right": 0.0054,
+   "PulmonaryOpacities_Left": 0.0,
+   "Atelectasis_Right": 0.0,
+   "Atelectasis_Left": 0.0
+  },
+  "HeartSize_g3_support": 1883,
+  "HeartSize_g3_recall_off0.5": 0.0027,
+  "HeartSize_g3_recall_valbest": 0.0016
+ },
+ "E4_mse_regression": {
+  "config": "518bm, K-way softmax-free MSE-to-onehot + argmax, 3 seeds",
+  "per_seed": [
+   0.3851,
+   0.3795,
+   0.3817
+  ],
+  "mean": 0.3821
+ },
+ "E8_loss_matrix_raddino": {
+  "config": "RAD-DINO 224 CLS frozen, 3 seeds",
+  "losses": {
+   "ce": {
+    "per_seed": [
+     0.5123,
+     0.5112,
+     0.5108
+    ],
+    "mean": 0.5114,
+    "std": 0.0008
+   },
+   "coral_shared": {
+    "per_seed": [
+     0.5184,
+     0.519,
+     0.5186
+    ],
+    "mean": 0.5187,
+    "std": 0.0003
+   },
+   "corn": {
+    "per_seed": [
+     0.5332,
+     0.5345,
+     0.535
+    ],
+    "mean": 0.5342,
+    "std": 0.0009
+   },
+   "cumul": {
+    "per_seed": [
+     0.5371,
+     0.5375,
+     0.5366
+    ],
+    "mean": 0.5371,
+    "std": 0.0005
+   }
+  }
+ },
+ "total_seconds": 928
+}

@@ -1,0 +1,135 @@
+{
+ "protocol": "proper split conformal, CIF-style ordinal conformity score (alternating growth from argmax, score=mass at true-label inclusion), finite-sample quantile ceil((n+1)(1-alpha))/n, alpha=0.1, calibration=val, evaluation=test, config=518-base-mean seed0",
+ "heads": {
+  "cumul": {
+   "ece": {
+    "HeartSize": 0.0072,
+    "PulmonaryCongestion": 0.0099,
+    "PleuralEffusion_Right": 0.006,
+    "PleuralEffusion_Left": 0.007,
+    "PulmonaryOpacities_Right": 0.0067,
+    "PulmonaryOpacities_Left": 0.0088,
+    "Atelectasis_Right": 0.0059,
+    "Atelectasis_Left": 0.0131
+   },
+   "conformal": {
+    "HeartSize": {
+     "q": 0.9859,
+     "coverage": 0.9989,
+     "mean_set_size": 3.74,
+     "median_set_size": 4
+    },
+    "PulmonaryCongestion": {
+     "q": 0.9857,
+     "coverage": 0.9975,
+     "mean_set_size": 3.959,
+     "median_set_size": 4
+    },
+    "PleuralEffusion_Right": {
+     "q": 0.983,
+     "coverage": 0.9975,
+     "mean_set_size": 3.726,
+     "median_set_size": 4
+    },
+    "PleuralEffusion_Left": {
+     "q": 0.9853,
+     "coverage": 0.9976,
+     "mean_set_size": 3.805,
+     "median_set_size": 4
+    },
+    "PulmonaryOpacities_Right": {
+     "q": 0.9782,
+     "coverage": 0.9949,
+     "mean_set_size": 3.956,
+     "median_set_size": 4
+    },
+    "PulmonaryOpacities_Left": {
+     "q": 0.9772,
+     "coverage": 0.9942,
+     "mean_set_size": 3.763,
+     "median_set_size": 4
+    },
+    "Atelectasis_Right": {
+     "q": 0.9851,
+     "coverage": 0.9974,
+     "mean_set_size": 4.033,
+     "median_set_size": 4
+    },
+    "Atelectasis_Left": {
+     "q": 0.9833,
+     "coverage": 0.9975,
+     "mean_set_size": 3.962,
+     "median_set_size": 4
+    }
+   },
+   "mean_ece": 0.0081,
+   "mean_coverage": 0.9969,
+   "mean_size": 3.868
+  },
+  "ce": {
+   "ece": {
+    "HeartSize": 0.0076,
+    "PulmonaryCongestion": 0.0081,
+    "PleuralEffusion_Right": 0.022,
+    "PleuralEffusion_Left": 0.0177,
+    "PulmonaryOpacities_Right": 0.0216,
+    "PulmonaryOpacities_Left": 0.0134,
+    "Atelectasis_Right": 0.0295,
+    "Atelectasis_Left": 0.0096
+   },
+   "conformal": {
+    "HeartSize": {
+     "q": 0.9888,
+     "coverage": 0.9989,
+     "mean_set_size": 3.734,
+     "median_set_size": 4
+    },
+    "PulmonaryCongestion": {
+     "q": 0.9888,
+     "coverage": 0.9973,
+     "mean_set_size": 3.959,
+     "median_set_size": 4
+    },
+    "PleuralEffusion_Right": {
+     "q": 0.9835,
+     "coverage": 0.9976,
+     "mean_set_size": 3.687,
+     "median_set_size": 4
+    },
+    "PleuralEffusion_Left": {
+     "q": 0.9867,
+     "coverage": 0.9981,
+     "mean_set_size": 3.803,
+     "median_set_size": 4
+    },
+    "PulmonaryOpacities_Right": {
+     "q": 0.9778,
+     "coverage": 0.9952,
+     "mean_set_size": 3.926,
+     "median_set_size": 4
+    },
+    "PulmonaryOpacities_Left": {
+     "q": 0.978,
+     "coverage": 0.9945,
+     "mean_set_size": 3.748,
+     "median_set_size": 4
+    },
+    "Atelectasis_Right": {
+     "q": 0.9865,
+     "coverage": 0.9975,
+     "mean_set_size": 4.031,
+     "median_set_size": 4
+    },
+    "Atelectasis_Left": {
+     "q": 0.9879,
+     "coverage": 0.9978,
+     "mean_set_size": 3.971,
+     "median_set_size": 4
+    }
+   },
+   "mean_ece": 0.0162,
+   "mean_coverage": 0.9971,
+   "mean_size": 3.857
+  }
+ }
+}

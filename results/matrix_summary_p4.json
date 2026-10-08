@@ -1,0 +1,68 @@
+{
+ "224bc_u": {
+  "mean": 0.4103,
+  "std": 0.0027
+ },
+ "224bc_w": {
+  "mean": 0.4139,
+  "std": 0.0044
+ },
+ "224bm_u": {
+  "mean": 0.413,
+  "std": 0.0067
+ },
+ "224bm_w": {
+  "mean": 0.4136,
+  "std": 0.0015
+ },
+ "224lc_u": {
+  "mean": 0.4,
+  "std": 0.0033
+ },
+ "224lc_w": {
+  "mean": 0.4005,
+  "std": 0.0025
+ },
+ "224lm_u": {
+  "mean": 0.4112,
+  "std": 0.0058
+ },
+ "224lm_w": {
+  "mean": 0.4107,
+  "std": 0.002
+ },
+ "518bc_u": {
+  "mean": 0.4335,
+  "std": 0.0011
+ },
+ "518bc_w": {
+  "mean": 0.4281,
+  "std": 0.0022
+ },
+ "518bm_u": {
+  "mean": 0.4342,
+  "std": 0.0021
+ },
+ "518bm_w": {
+  "mean": 0.4307,
+  "std": 0.0033
+ },
+ "raddino_u": {
+  "mean": 0.5371,
+  "std": 0.0004
+ },
+ "raddino_w": {
+  "mean": 0.5333,
+  "std": 0.0003
+ },
+ "biomedclip_u": {
+  "mean": 0.4659,
+  "std": 0.0,
+  "note": "seed 0 only; corrected CLIP normalization (v2 features)"
+ },
+ "biomedclip_w": {
+  "mean": 0.4652,
+  "std": 0.0,
+  "note": "seed 0 only; corrected CLIP normalization (v2 features)"
+ }
+}

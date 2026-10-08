@@ -1,0 +1,49 @@
+{
+ "model": "official ordinal.ckpt (DINOv2 ViT-S/14 + linear CORN head, 448 center-crop, per-image z-norm)",
+ "n_eval": 42928,
+ "per_task": {
+  "HeartSize": {
+   "qwk": 0.6303,
+   "linear_kappa": 0.5376,
+   "exact_acc": 0.6357
+  },
+  "PulmonaryCongestion": {
+   "qwk": 0.4956,
+   "linear_kappa": 0.4017,
+   "exact_acc": 0.5477
+  },
+  "PleuralEffusion_Left": {
+   "qwk": 0.6706,
+   "linear_kappa": 0.5726,
+   "exact_acc": 0.6428
+  },
+  "PleuralEffusion_Right": {
+   "qwk": 0.7565,
+   "linear_kappa": 0.6539,
+   "exact_acc": 0.6932
+  },
+  "PulmonaryOpacities_Left": {
+   "qwk": 0.659,
+   "linear_kappa": 0.5349,
+   "exact_acc": 0.644
+  },
+  "PulmonaryOpacities_Right": {
+   "qwk": 0.6814,
+   "linear_kappa": 0.5524,
+   "exact_acc": 0.6045
+  },
+  "Atelectasis_Left": {
+   "qwk": 0.465,
+   "linear_kappa": 0.3925,
+   "exact_acc": 0.6525
+  },
+  "Atelectasis_Right": {
+   "qwk": 0.5332,
+   "linear_kappa": 0.4481,
+   "exact_acc": 0.6274
+  }
+ },
+ "mean_qwk": 0.6115,
+ "mean_linear_kappa": 0.5117,
+ "mean_exact_acc": 0.631
+}

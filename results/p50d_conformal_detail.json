@@ -1,0 +1,376 @@
+{
+ "protocol": "same as p41 (518-base-mean seed0, val calibration, alpha=0.1, CIF interval score)",
+ "findings": {
+  "HeartSize": {
+   "calibration_n": 34860,
+   "q": 0.9859,
+   "coverage_overall": 0.9989,
+   "coverage_top_grade": {
+    "n": 1883,
+    "coverage": 0.974,
+    "mean_width": 3.966
+   },
+   "width": {
+    "mean": 3.74,
+    "median": 4,
+    "iqr": [
+     3,
+     4
+    ],
+    "frac_ge4": 0.74,
+    "frac_eq_max": 0.74
+   },
+   "coverage_by_true_grade": {
+    "0": {
+     "n": 14262,
+     "coverage": 1.0,
+     "mean_width": 3.533
+    },
+    "1": {
+     "n": 6230,
+     "coverage": 1.0,
+     "mean_width": 3.726
+    },
+    "2": {
+     "n": 20553,
+     "coverage": 1.0,
+     "mean_width": 3.867
+    },
+    "3": {
+     "n": 1883,
+     "coverage": 0.974,
+     "mean_width": 3.966
+    }
+   }
+  },
+  "PulmonaryCongestion": {
+   "calibration_n": 34860,
+   "q": 0.9857,
+   "coverage_overall": 0.9975,
+   "coverage_top_grade": {
+    "n": 151,
+    "coverage": 0.3576,
+    "mean_width": 4.358
+   },
+   "width": {
+    "mean": 3.959,
+    "median": 4,
+    "iqr": [
+     4,
+     4
+    ],
+    "frac_ge4": 0.9182,
+    "frac_eq_max": 0.0404
+   },
+   "coverage_by_true_grade": {
+    "0": {
+     "n": 14279,
+     "coverage": 1.0,
+     "mean_width": 3.842
+    },
+    "1": {
+     "n": 4983,
+     "coverage": 1.0,
+     "mean_width": 3.941
+    },
+    "2": {
+     "n": 19573,
+     "coverage": 1.0,
+     "mean_width": 4.008
+    },
+    "3": {
+     "n": 3942,
+     "coverage": 0.9972,
+     "mean_width": 4.141
+    },
+    "4": {
+     "n": 151,
+     "coverage": 0.3576,
+     "mean_width": 4.358
+    }
+   }
+  },
+  "PleuralEffusion_Right": {
+   "calibration_n": 34860,
+   "q": 0.983,
+   "coverage_overall": 0.9975,
+   "coverage_top_grade": {
+    "n": 79,
+    "coverage": 0.1519,
+    "mean_width": 4.139
+   },
+   "width": {
+    "mean": 3.726,
+    "median": 4,
+    "iqr": [
+     3,
+     4
+    ],
+    "frac_ge4": 0.73,
+    "frac_eq_max": 0.0063
+   },
+   "coverage_by_true_grade": {
+    "0": {
+     "n": 21405,
+     "coverage": 1.0,
+     "mean_width": 3.538
+    },
+    "1": {
+     "n": 4920,
+     "coverage": 0.9998,
+     "mean_width": 3.803
+    },
+    "2": {
+     "n": 12957,
+     "coverage": 0.9997,
+     "mean_width": 3.929
+    },
+    "3": {
+     "n": 3567,
+     "coverage": 0.9899,
+     "mean_width": 4.007
+    },
+    "4": {
+     "n": 79,
+     "coverage": 0.1519,
+     "mean_width": 4.139
+    }
+   }
+  },
+  "PleuralEffusion_Left": {
+   "calibration_n": 34860,
+   "q": 0.9853,
+   "coverage_overall": 0.9976,
+   "coverage_top_grade": {
+    "n": 85,
+    "coverage": 0.2353,
+    "mean_width": 4.224
+   },
+   "width": {
+    "mean": 3.805,
+    "median": 4,
+    "iqr": [
+     4,
+     4
+    ],
+    "frac_ge4": 0.7919,
+    "frac_eq_max": 0.0135
+   },
+   "coverage_by_true_grade": {
+    "0": {
+     "n": 14939,
+     "coverage": 1.0,
+     "mean_width": 3.604
+    },
+    "1": {
+     "n": 6299,
+     "coverage": 1.0,
+     "mean_width": 3.815
+    },
+    "2": {
+     "n": 18873,
+     "coverage": 1.0,
+     "mean_width": 3.927
+    },
+    "3": {
+     "n": 2732,
+     "coverage": 0.9861,
+     "mean_width": 4.034
+    },
+    "4": {
+     "n": 85,
+     "coverage": 0.2353,
+     "mean_width": 4.224
+    }
+   }
+  },
+  "PulmonaryOpacities_Right": {
+   "calibration_n": 34860,
+   "q": 0.9782,
+   "coverage_overall": 0.9949,
+   "coverage_top_grade": {
+    "n": 738,
+    "coverage": 0.7764,
+    "mean_width": 4.706
+   },
+   "width": {
+    "mean": 3.956,
+    "median": 4,
+    "iqr": [
+     4,
+     4
+    ],
+    "frac_ge4": 0.8233,
+    "frac_eq_max": 0.134
+   },
+   "coverage_by_true_grade": {
+    "0": {
+     "n": 21121,
+     "coverage": 1.0,
+     "mean_width": 3.755
+    },
+    "1": {
+     "n": 4251,
+     "coverage": 0.9998,
+     "mean_width": 3.925
+    },
+    "2": {
+     "n": 11748,
+     "coverage": 0.9999,
+     "mean_width": 4.078
+    },
+    "3": {
+     "n": 5070,
+     "coverage": 0.9893,
+     "mean_width": 4.431
+    },
+    "4": {
+     "n": 738,
+     "coverage": 0.7764,
+     "mean_width": 4.706
+    }
+   }
+  },
+  "PulmonaryOpacities_Left": {
+   "calibration_n": 34860,
+   "q": 0.9772,
+   "coverage_overall": 0.9942,
+   "coverage_top_grade": {
+    "n": 487,
+    "coverage": 0.6735,
+    "mean_width": 4.647
+   },
+   "width": {
+    "mean": 3.763,
+    "median": 4,
+    "iqr": [
+     3,
+     4
+    ],
+    "frac_ge4": 0.6854,
+    "frac_eq_max": 0.0802
+   },
+   "coverage_by_true_grade": {
+    "0": {
+     "n": 24881,
+     "coverage": 1.0,
+     "mean_width": 3.586
+    },
+    "1": {
+     "n": 3985,
+     "coverage": 0.9997,
+     "mean_width": 3.781
+    },
+    "2": {
+     "n": 9910,
+     "coverage": 0.9998,
+     "mean_width": 3.947
+    },
+    "3": {
+     "n": 3665,
+     "coverage": 0.976,
+     "mean_width": 4.329
+    },
+    "4": {
+     "n": 487,
+     "coverage": 0.6735,
+     "mean_width": 4.647
+    }
+   }
+  },
+  "Atelectasis_Right": {
+   "calibration_n": 34860,
+   "q": 0.9851,
+   "coverage_overall": 0.9974,
+   "coverage_top_grade": {
+    "n": 184,
+    "coverage": 0.4511,
+    "mean_width": 4.451
+   },
+   "width": {
+    "mean": 4.033,
+    "median": 4,
+    "iqr": [
+     4,
+     4
+    ],
+    "frac_ge4": 0.9465,
+    "frac_eq_max": 0.0868
+   },
+   "coverage_by_true_grade": {
+    "0": {
+     "n": 11342,
+     "coverage": 1.0,
+     "mean_width": 3.93
+    },
+    "1": {
+     "n": 2868,
+     "coverage": 1.0,
+     "mean_width": 3.956
+    },
+    "2": {
+     "n": 23817,
+     "coverage": 1.0,
+     "mean_width": 4.047
+    },
+    "3": {
+     "n": 4717,
+     "coverage": 0.9979,
+     "mean_width": 4.24
+    },
+    "4": {
+     "n": 184,
+     "coverage": 0.4511,
+     "mean_width": 4.451
+    }
+   }
+  },
+  "Atelectasis_Left": {
+   "calibration_n": 34860,
+   "q": 0.9833,
+   "coverage_overall": 0.9975,
+   "coverage_top_grade": {
+    "n": 145,
+    "coverage": 0.3517,
+    "mean_width": 4.352
+   },
+   "width": {
+    "mean": 3.962,
+    "median": 4,
+    "iqr": [
+     4,
+     4
+    ],
+    "frac_ge4": 0.9295,
+    "frac_eq_max": 0.0329
+   },
+   "coverage_by_true_grade": {
+    "0": {
+     "n": 9756,
+     "coverage": 1.0,
+     "mean_width": 3.883
+    },
+    "1": {
+     "n": 2956,
+     "coverage": 1.0,
+     "mean_width": 3.892
+    },
+    "2": {
+     "n": 26558,
+     "coverage": 1.0,
+     "mean_width": 3.979
+    },
+    "3": {
+     "n": 3513,
+     "coverage": 0.996,
+     "mean_width": 4.1
+    },
+    "4": {
+     "n": 145,
+     "coverage": 0.3517,
+     "mean_width": 4.352
+    }
+   }
+  }
+ }
+}

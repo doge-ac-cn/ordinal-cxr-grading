@@ -1,0 +1,49 @@
+{
+ "model": "DINOv2-base@224 finetune v2 (aug rot/shift/gamma, 12ep patience3)",
+ "n": 42928,
+ "per_task": {
+  "HeartSize": {
+   "qwk": 0.6319,
+   "linear_kappa": 0.5399,
+   "exact_acc": 0.6398
+  },
+  "PulmonaryCongestion": {
+   "qwk": 0.4848,
+   "linear_kappa": 0.3899,
+   "exact_acc": 0.5381
+  },
+  "PleuralEffusion_Right": {
+   "qwk": 0.7533,
+   "linear_kappa": 0.6509,
+   "exact_acc": 0.6892
+  },
+  "PleuralEffusion_Left": {
+   "qwk": 0.666,
+   "linear_kappa": 0.5672,
+   "exact_acc": 0.6385
+  },
+  "PulmonaryOpacities_Right": {
+   "qwk": 0.6727,
+   "linear_kappa": 0.5459,
+   "exact_acc": 0.5972
+  },
+  "PulmonaryOpacities_Left": {
+   "qwk": 0.6397,
+   "linear_kappa": 0.5196,
+   "exact_acc": 0.6398
+  },
+  "Atelectasis_Right": {
+   "qwk": 0.534,
+   "linear_kappa": 0.4468,
+   "exact_acc": 0.623
+  },
+  "Atelectasis_Left": {
+   "qwk": 0.4526,
+   "linear_kappa": 0.3819,
+   "exact_acc": 0.6532
+  }
+ },
+ "mean_qwk": 0.6044,
+ "mean_linear_kappa": 0.5053,
+ "mean_exact_acc": 0.6274
+}

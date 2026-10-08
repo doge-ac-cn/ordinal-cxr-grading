@@ -1,0 +1,65 @@
+{
+ "model": "official ordinal.ckpt (DINOv2 ViT-S/14 + linear CORN head)",
+ "n": 42928,
+ "decodings": {
+  "chained": {
+   "per_task_qwk": {
+    "HeartSize": {
+     "qwk": 0.6303
+    },
+    "PulmonaryCongestion": {
+     "qwk": 0.4956
+    },
+    "PleuralEffusion_Left": {
+     "qwk": 0.6706
+    },
+    "PleuralEffusion_Right": {
+     "qwk": 0.7565
+    },
+    "PulmonaryOpacities_Left": {
+     "qwk": 0.659
+    },
+    "PulmonaryOpacities_Right": {
+     "qwk": 0.6814
+    },
+    "Atelectasis_Left": {
+     "qwk": 0.465
+    },
+    "Atelectasis_Right": {
+     "qwk": 0.5332
+    }
+   },
+   "mean_qwk": 0.6115
+  },
+  "counting_rule": {
+   "per_task_qwk": {
+    "HeartSize": {
+     "qwk": 0.572
+    },
+    "PulmonaryCongestion": {
+     "qwk": 0.3475
+    },
+    "PleuralEffusion_Left": {
+     "qwk": 0.5605
+    },
+    "PleuralEffusion_Right": {
+     "qwk": 0.717
+    },
+    "PulmonaryOpacities_Left": {
+     "qwk": 0.6125
+    },
+    "PulmonaryOpacities_Right": {
+     "qwk": 0.641
+    },
+    "Atelectasis_Left": {
+     "qwk": 0.3095
+    },
+    "Atelectasis_Right": {
+     "qwk": 0.3899
+    }
+   },
+   "mean_qwk": 0.5187
+  }
+ },
+ "delta_mean_qwk": 0.0928
+}

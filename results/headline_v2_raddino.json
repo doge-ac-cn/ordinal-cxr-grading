@@ -1,0 +1,118 @@
+{
+ "protocol": "20(14\u00d7)val, CORAL, 3",
+ "per_seed": {
+  "0": {
+   "mean_qwk": 0.5462833450630593,
+   "sel": {
+    "HeartSize": {
+     "config": "raddino_u",
+     "test": 0.5882
+    },
+    "PulmonaryCongestion": {
+     "config": "raddino_w",
+     "test": 0.444
+    },
+    "PleuralEffusion_Right": {
+     "config": "raddino_u",
+     "test": 0.6579
+    },
+    "PleuralEffusion_Left": {
+     "config": "raddino_u",
+     "test": 0.5663
+    },
+    "PulmonaryOpacities_Right": {
+     "config": "raddino_u",
+     "test": 0.625
+    },
+    "PulmonaryOpacities_Left": {
+     "config": "raddino_u",
+     "test": 0.5894
+    },
+    "Atelectasis_Right": {
+     "config": "raddino_w",
+     "test": 0.4864
+    },
+    "Atelectasis_Left": {
+     "config": "raddino_w",
+     "test": 0.413
+    }
+   }
+  },
+  "1": {
+   "mean_qwk": 0.5460798381499053,
+   "sel": {
+    "HeartSize": {
+     "config": "raddino_u",
+     "test": 0.5891
+    },
+    "PulmonaryCongestion": {
+     "config": "raddino_w",
+     "test": 0.4421
+    },
+    "PleuralEffusion_Right": {
+     "config": "raddino_u",
+     "test": 0.6585
+    },
+    "PleuralEffusion_Left": {
+     "config": "raddino_u",
+     "test": 0.5669
+    },
+    "PulmonaryOpacities_Right": {
+     "config": "raddino_u",
+     "test": 0.6247
+    },
+    "PulmonaryOpacities_Left": {
+     "config": "raddino_u",
+     "test": 0.5895
+    },
+    "Atelectasis_Right": {
+     "config": "raddino_w",
+     "test": 0.486
+    },
+    "Atelectasis_Left": {
+     "config": "raddino_w",
+     "test": 0.4119
+    }
+   }
+  },
+  "2": {
+   "mean_qwk": 0.5455337366341142,
+   "sel": {
+    "HeartSize": {
+     "config": "raddino_u",
+     "test": 0.5878
+    },
+    "PulmonaryCongestion": {
+     "config": "raddino_w",
+     "test": 0.4429
+    },
+    "PleuralEffusion_Right": {
+     "config": "raddino_u",
+     "test": 0.6569
+    },
+    "PleuralEffusion_Left": {
+     "config": "raddino_u",
+     "test": 0.5648
+    },
+    "PulmonaryOpacities_Right": {
+     "config": "raddino_u",
+     "test": 0.6242
+    },
+    "PulmonaryOpacities_Left": {
+     "config": "raddino_u",
+     "test": 0.5891
+    },
+    "Atelectasis_Right": {
+     "config": "raddino_w",
+     "test": 0.4865
+    },
+    "Atelectasis_Left": {
+     "config": "raddino_w",
+     "test": 0.4122
+    }
+   }
+  }
+ },
+ "headline_mean": 0.5459656399490262,
+ "headline_std": 0.0003876327140469467
+}

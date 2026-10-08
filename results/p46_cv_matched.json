@@ -1,0 +1,32 @@
+{
+ "budget": "epochs=100/patience=10 ()",
+ "per_fold": [
+  {
+   "fold": 0,
+   "val_qwk": 0.4377,
+   "test_qwk": 0.4327
+  },
+  {
+   "fold": 1,
+   "val_qwk": 0.4282,
+   "test_qwk": 0.4321
+  },
+  {
+   "fold": 2,
+   "val_qwk": 0.4378,
+   "test_qwk": 0.4341
+  },
+  {
+   "fold": 3,
+   "val_qwk": 0.4347,
+   "test_qwk": 0.4332
+  },
+  {
+   "fold": 4,
+   "val_qwk": 0.4373,
+   "test_qwk": 0.4345
+  }
+ ],
+ "test_mean": 0.43332,
+ "test_std": 0.0009859006035093053
+}

@@ -1,0 +1,46 @@
+{
+ "method": "per-task selection between unweighted CORAL (p11) and pos_weight CORAL (p12) by val QWK; test untouched",
+ "per_task": {
+  "HeartSize": {
+   "picked": "unweighted",
+   "val_qwk": 0.4490918965846096,
+   "test_qwk": 0.43134621808934936
+  },
+  "PulmonaryCongestion": {
+   "picked": "weighted",
+   "val_qwk": 0.3783725107021111,
+   "test_qwk": 0.37059058506456266
+  },
+  "PleuralEffusion_Right": {
+   "picked": "unweighted",
+   "val_qwk": 0.5555110065992022,
+   "test_qwk": 0.5473409211891823
+  },
+  "PleuralEffusion_Left": {
+   "picked": "unweighted",
+   "val_qwk": 0.4558330175357532,
+   "test_qwk": 0.45071327228713565
+  },
+  "PulmonaryOpacities_Right": {
+   "picked": "unweighted",
+   "val_qwk": 0.5007289269239181,
+   "test_qwk": 0.5034907765584304
+  },
+  "PulmonaryOpacities_Left": {
+   "picked": "unweighted",
+   "val_qwk": 0.4913450843432706,
+   "test_qwk": 0.48087213994731914
+  },
+  "Atelectasis_Right": {
+   "picked": "weighted",
+   "val_qwk": 0.3705208608094037,
+   "test_qwk": 0.3863093280755361
+  },
+  "Atelectasis_Left": {
+   "picked": "weighted",
+   "val_qwk": 0.32993854388125843,
+   "test_qwk": 0.31528889501588264
+  }
+ },
+ "test_mean_qwk": 0.4357440170284248
+}

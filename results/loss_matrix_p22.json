@@ -1,0 +1,55 @@
+{
+ "config": "518-base-mean CORAL, 4 x 3",
+ "loss_matrix": {
+  "ce": {
+   "name": "Plain CE",
+   "mean": 0.40128168330515757,
+   "std": 0.004593201911099128,
+   "per_seed": [
+    0.3963,
+    0.4053,
+    0.4023
+   ]
+  },
+  "softord": {
+   "name": "Soft-Ordinal CE",
+   "mean": 0.408136534423201,
+   "std": 0.003078869483220052,
+   "per_seed": [
+    0.4117,
+    0.4064,
+    0.4063
+   ]
+  },
+  "coral_shared": {
+   "name": "CORAL (shared-weight)",
+   "mean": 0.42929646939772886,
+   "std": 0.00344338279569355,
+   "per_seed": [
+    0.4332,
+    0.4266,
+    0.4281
+   ]
+  },
+  "coral": {
+   "name": "Unconstrained cumulative",
+   "mean": 0.4341952609778666,
+   "std": 0.0021120655553869493,
+   "per_seed": [
+    0.4331,
+    0.4329,
+    0.4366
+   ]
+  },
+  "corn": {
+   "name": "CORN (conditional, Shi et al. 2023)",
+   "mean": 0.4299395909389901,
+   "std": 0.004244496511919646,
+   "per_seed": [
+    0.4311,
+    0.4252,
+    0.4335
+   ]
+  }
+ }
+}

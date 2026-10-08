@@ -1,0 +1,238 @@
+{
+ "model": "518-base-mean cumul seed0",
+ "val_mean_qwk": 0.4345,
+ "inv_group": {
+  "inverted_corrected": {
+   "n": 328,
+   "qwk": {
+    "HeartSize": 0.2638,
+    "PulmonaryCongestion": 0.2011,
+    "PleuralEffusion_Right": 0.3981,
+    "PleuralEffusion_Left": 0.3617,
+    "PulmonaryOpacities_Right": 0.2965,
+    "PulmonaryOpacities_Left": 0.2751,
+    "Atelectasis_Right": 0.1678,
+    "Atelectasis_Left": 0.0997
+   },
+   "mean_qwk": 0.258
+  },
+  "normal": {
+   "n": 42600,
+   "qwk": {
+    "HeartSize": 0.4538,
+    "PulmonaryCongestion": 0.3892,
+    "PleuralEffusion_Right": 0.5903,
+    "PleuralEffusion_Left": 0.4916,
+    "PulmonaryOpacities_Right": 0.5043,
+    "PulmonaryOpacities_Left": 0.4501,
+    "Atelectasis_Right": 0.3369,
+    "Atelectasis_Left": 0.2581
+   },
+   "mean_qwk": 0.4343
+  }
+ },
+ "bit_group": {
+  "12bit_scale": {
+   "n": 22989,
+   "qwk": {
+    "HeartSize": 0.462,
+    "PulmonaryCongestion": 0.3591,
+    "PleuralEffusion_Right": 0.6089,
+    "PleuralEffusion_Left": 0.503,
+    "PulmonaryOpacities_Right": 0.4968,
+    "PulmonaryOpacities_Left": 0.4242,
+    "Atelectasis_Right": 0.3282,
+    "Atelectasis_Left": 0.2305
+   },
+   "mean_qwk": 0.4266
+  },
+  "16bit_scale": {
+   "n": 19939,
+   "qwk": {
+    "HeartSize": 0.4397,
+    "PulmonaryCongestion": 0.406,
+    "PleuralEffusion_Right": 0.5627,
+    "PleuralEffusion_Left": 0.4723,
+    "PulmonaryOpacities_Right": 0.501,
+    "PulmonaryOpacities_Left": 0.4682,
+    "Atelectasis_Right": 0.3315,
+    "Atelectasis_Left": 0.2662
+   },
+   "mean_qwk": 0.4309
+  }
+ },
+ "per_grade_recall": {
+  "HeartSize": {
+   "0": {
+    "support": 14262,
+    "recall": 0.483
+   },
+   "1": {
+    "support": 6230,
+    "recall": 0.311
+   },
+   "2": {
+    "support": 20553,
+    "recall": 0.685
+   },
+   "3": {
+    "support": 1883,
+    "recall": 0.003
+   }
+  },
+  "PulmonaryCongestion": {
+   "0": {
+    "support": 14279,
+    "recall": 0.376
+   },
+   "1": {
+    "support": 4983,
+    "recall": 0.315
+   },
+   "2": {
+    "support": 19573,
+    "recall": 0.695
+   },
+   "3": {
+    "support": 3942,
+    "recall": 0.027
+   },
+   "4": {
+    "support": 151,
+    "recall": 0.0
+   }
+  },
+  "PleuralEffusion_Right": {
+   "0": {
+    "support": 21405,
+    "recall": 0.771
+   },
+   "1": {
+    "support": 4920,
+    "recall": 0.247
+   },
+   "2": {
+    "support": 12957,
+    "recall": 0.585
+   },
+   "3": {
+    "support": 3567,
+    "recall": 0.05
+   },
+   "4": {
+    "support": 79,
+    "recall": 0.0
+   }
+  },
+  "PleuralEffusion_Left": {
+   "0": {
+    "support": 14939,
+    "recall": 0.515
+   },
+   "1": {
+    "support": 6299,
+    "recall": 0.316
+   },
+   "2": {
+    "support": 18873,
+    "recall": 0.684
+   },
+   "3": {
+    "support": 2732,
+    "recall": 0.015
+   },
+   "4": {
+    "support": 85,
+    "recall": 0.0
+   }
+  },
+  "PulmonaryOpacities_Right": {
+   "0": {
+    "support": 21121,
+    "recall": 0.732
+   },
+   "1": {
+    "support": 4251,
+    "recall": 0.223
+   },
+   "2": {
+    "support": 11748,
+    "recall": 0.398
+   },
+   "3": {
+    "support": 5070,
+    "recall": 0.169
+   },
+   "4": {
+    "support": 738,
+    "recall": 0.012
+   }
+  },
+  "PulmonaryOpacities_Left": {
+   "0": {
+    "support": 24881,
+    "recall": 0.844
+   },
+   "1": {
+    "support": 3985,
+    "recall": 0.155
+   },
+   "2": {
+    "support": 9910,
+    "recall": 0.272
+   },
+   "3": {
+    "support": 3665,
+    "recall": 0.148
+   },
+   "4": {
+    "support": 487,
+    "recall": 0.0
+   }
+  },
+  "Atelectasis_Right": {
+   "0": {
+    "support": 11342,
+    "recall": 0.259
+   },
+   "1": {
+    "support": 2868,
+    "recall": 0.181
+   },
+   "2": {
+    "support": 23817,
+    "recall": 0.833
+   },
+   "3": {
+    "support": 4717,
+    "recall": 0.078
+   },
+   "4": {
+    "support": 184,
+    "recall": 0.0
+   }
+  },
+  "Atelectasis_Left": {
+   "0": {
+    "support": 9756,
+    "recall": 0.169
+   },
+   "1": {
+    "support": 2956,
+    "recall": 0.148
+   },
+   "2": {
+    "support": 26558,
+    "recall": 0.905
+   },
+   "3": {
+    "support": 3513,
+    "recall": 0.019
+   },
+   "4": {
+    "support": 145,
+    "recall": 0.0
+   }
+  }
+ }
+}

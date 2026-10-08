@@ -1,0 +1,21 @@
+{
+ "protocol": "paired patient-clustered bootstrap, official chained decoding vs ours-FT (12-ep recipe), 1000 resamples",
+ "per_task_point_diff": {
+  "HeartSize": -0.0016,
+  "PulmonaryCongestion": 0.0108,
+  "PleuralEffusion_Right": 0.0033,
+  "PleuralEffusion_Left": 0.0045,
+  "PulmonaryOpacities_Right": 0.0088,
+  "PulmonaryOpacities_Left": 0.0194,
+  "Atelectasis_Right": -0.0006,
+  "Atelectasis_Left": 0.0126
+ },
+ "mean_diff_cluster_boot": {
+  "diff": 0.0071,
+  "ci95": [
+   0.0052,
+   0.009
+  ],
+  "p_perm_two_sided": 0.0
+ }
+}
